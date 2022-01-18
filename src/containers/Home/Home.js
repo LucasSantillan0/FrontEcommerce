@@ -1,5 +1,4 @@
 import React from 'react'
-import Cart from '../../components/cart/Cart'
 
 const Home = () => {
     return (
@@ -7,7 +6,6 @@ const Home = () => {
         <div className="card-body">
           This is some text within a card body.
         </div>
-
       </div>
     )
 }
