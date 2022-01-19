@@ -1,4 +1,5 @@
 import react from 'react';
+import style from "./_CategoriesFilter.module.scss"
 
 const CategoriesFilter = () => {
   return (
@@ -12,7 +13,7 @@ const CategoriesFilter = () => {
               value='electrodomesticos'
               aria-label='...'
             />
-            electrodomesticos
+            <div className={style.hola}>electrodomesticos</div>
           </li>
           <li class='list-group-item'>
             <input

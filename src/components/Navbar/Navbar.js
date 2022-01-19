@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-    isAuthenticated ? (
+    {/* isAuthenticated ? (
     <div>
       <img src={user.picture} alt={user.name} />
       <p>{user.name}</p>
@@ -16,7 +16,7 @@ const Navbar = () => {
     </div>
   ) : (
     <LoginButton />
-  )
+  ) */}
   </div>)};
 
 export default Navbar;
